@@ -9,7 +9,13 @@
     <artifactId>learn-module-a</artifactId>
     <version>${parent.version}</version>
     <!--<packaging>...</packaging>-->
-    <!--<dependencies>...</dependencies>-->
+    <dependencies>
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>learn-module-b</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+    </dependencies>
     <parent>
         <groupId>com.seanshubin.learn.module</groupId>
         <artifactId>learn-module-parent</artifactId>
@@ -29,7 +35,7 @@
                 <configuration>
                     <transformers>
                         <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                            <mainClass>com.seanshubin.learn.module.a.com.seanshubin.learn.module.a.Main</mainClass>
+                            <mainClass>com.seanshubin.learn.module.a.MainA</mainClass>
                         </transformer>
                     </transformers>
                 </configuration>

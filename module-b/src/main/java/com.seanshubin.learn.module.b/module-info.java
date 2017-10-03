@@ -1,1 +1,3 @@
-module com.seanshubin.learn.module.a { }
+module com.seanshubin.learn.module.b {
+    exports com.seanshubin.learn.module.b;
+}

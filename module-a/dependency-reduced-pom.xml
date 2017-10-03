@@ -24,7 +24,7 @@
         <configuration>
           <transformers>
             <transformer>
-              <mainClass>com.seanshubin.learn.module.a.com.seanshubin.learn.module.a.Main</mainClass>
+              <mainClass>com.seanshubin.learn.module.a.MainA</mainClass>
             </transformer>
           </transformers>
         </configuration>
