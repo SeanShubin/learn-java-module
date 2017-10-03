@@ -1,4 +1,4 @@
-package com.seanshubin.learn.module.a;
+package com.seanshubin.learn.module.d;
 
 public class MainD {
     public static void main(String[] args) {
