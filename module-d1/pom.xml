@@ -7,13 +7,13 @@
     <!-- The Basics -->
     <!--<groupId>...</groupId>-->
     <artifactId>learn-module-d</artifactId>
-    <version>${parent.version}</version>
+    <version>1</version>
     <!--<packaging>...</packaging>-->
     <!--<dependencies>...</dependencies>-->
     <parent>
         <groupId>com.seanshubin.learn.module</groupId>
         <artifactId>learn-module-parent</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <version>1</version>
     </parent>
     <!--<dependencyManagement>...</dependencyManagement>-->
     <!--<modules>...</modules>-->

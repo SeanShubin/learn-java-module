@@ -5,36 +5,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- The Basics -->
-    <groupId>com.seanshubin.learn.module</groupId>
-    <artifactId>learn-module-parent</artifactId>
-    <version>1</version>
-    <packaging>pom</packaging>
+    <!--<groupId>...</groupId>-->
+    <artifactId>learn-module-d</artifactId>
+    <version>2</version>
+    <!--<packaging>...</packaging>-->
     <!--<dependencies>...</dependencies>-->
-    <!--<parent>...</parent>-->
+    <parent>
+        <groupId>com.seanshubin.learn.module</groupId>
+        <artifactId>learn-module-parent</artifactId>
+        <version>1</version>
+    </parent>
     <!--<dependencyManagement>...</dependencyManagement>-->
-    <modules>
-        <module>module-a</module>
-        <module>module-b</module>
-        <module>module-c</module>
-        <module>module-d1</module>
-        <module>module-d2</module>
-    </modules>
+    <!--<modules>...</modules>-->
     <!--<properties>...</properties>-->
 
     <!-- Build Settings -->
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.7.0</version>
-                <configuration>
-                    <source>1.9</source>
-                    <target>1.9</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <!--<build>...</build>-->
     <!--<reporting>...</reporting>-->
 
     <!-- More Project Information -->
@@ -58,4 +44,3 @@
     <!--<distributionManagement>...</distributionManagement>-->
     <!--<profiles>...</profiles>-->
 </project>
-

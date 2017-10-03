@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-java -jar module-a/target/learn-module-a-0.1.0-SNAPSHOT.jar
+set -e
+set -x
+
+java -jar module-a/target/learn-module-a-1.jar
