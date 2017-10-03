@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- The Basics -->
+    <!--<groupId>...</groupId>-->
+    <artifactId>learn-module-b</artifactId>
+    <version>${parent.version}</version>
+    <!--<packaging>...</packaging>-->
+    <!--<dependencies>...</dependencies>-->
+    <parent>
+        <groupId>com.seanshubin.learn.module</groupId>
+        <artifactId>learn-module-parent</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+    <!--<dependencyManagement>...</dependencyManagement>-->
+    <!--<modules>...</modules>-->
+    <!--<properties>...</properties>-->
+
+    <!-- Build Settings -->
+    <!--<build>...</build>-->
+    <!--<reporting>...</reporting>-->
+
+    <!-- More Project Information -->
+    <!--<name>...</name>-->
+    <!--<description>...</description>-->
+    <!--<url>...</url>-->
+    <!--<inceptionYear>...</inceptionYear>-->
+    <!--<licenses>...</licenses>-->
+    <!--<organization>...</organization>-->
+    <!--<developers>...</developers>-->
+    <!--<contributors>...</contributors>-->
+
+    <!-- Environment Settings -->
+    <!--<issueManagement>...</issueManagement>-->
+    <!--<ciManagement>...</ciManagement>-->
+    <!--<mailingLists>...</mailingLists>-->
+    <!--<scm>...</scm>-->
+    <!--<prerequisites>...</prerequisites>-->
+    <!--<repositories>...</repositories>-->
+    <!--<pluginRepositories>...</pluginRepositories>-->
+    <!--<distributionManagement>...</distributionManagement>-->
+    <!--<profiles>...</profiles>-->
+</project>
