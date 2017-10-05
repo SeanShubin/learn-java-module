@@ -3,4 +3,4 @@
 set -e
 set -x
 
-java -jar module-a/target/learn-module-a-1.jar
+java -jar entry-point/target/learn-module-entry-point-1-SNAPSHOT.jar

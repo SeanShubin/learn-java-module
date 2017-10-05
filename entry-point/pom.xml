@@ -6,13 +6,13 @@
 
     <!-- The Basics -->
     <groupId>com.seanshubin.learn.module</groupId>
-    <artifactId>learn-module-d</artifactId>
-    <version>2-SNAPSHOT</version>
+    <artifactId>learn-module-entry-point</artifactId>
+    <version>1-SNAPSHOT</version>
     <!--<packaging>...</packaging>-->
     <dependencies>
         <dependency>
             <groupId>com.seanshubin.learn.module</groupId>
-            <artifactId>learn-module-legacy-code</artifactId>
+            <artifactId>learn-module-a</artifactId>
             <version>1-SNAPSHOT</version>
         </dependency>
     </dependencies>
@@ -22,7 +22,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <!-- Build Settings -->
     <build>
         <plugins>
@@ -34,6 +33,27 @@
                     <source>1.9</source>
                     <target>1.9</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <transformers>
+                        <transformer
+                                implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                            <mainClass>com.seanshubin.learn.module.entrypoint.MainEntryPoint</mainClass>
+                        </transformer>
+                    </transformers>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

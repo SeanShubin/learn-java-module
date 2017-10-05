@@ -6,21 +6,16 @@
 
     <!-- The Basics -->
     <groupId>com.seanshubin.learn.module</groupId>
-    <artifactId>learn-module-parent</artifactId>
-    <version>1</version>
-    <packaging>pom</packaging>
+    <artifactId>learn-module-legacy-code</artifactId>
+    <version>1-SNAPSHOT</version>
+    <!--<packaging>...</packaging>-->
     <!--<dependencies>...</dependencies>-->
     <!--<parent>...</parent>-->
     <!--<dependencyManagement>...</dependencyManagement>-->
-    <modules>
-        <module>module-a</module>
-        <module>module-b</module>
-        <module>module-c</module>
-        <module>module-d1</module>
-        <module>module-d2</module>
-    </modules>
-    <!--<properties>...</properties>-->
-
+    <!--<modules>...</modules>-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <!-- Build Settings -->
     <build>
         <plugins>
@@ -58,4 +53,3 @@
     <!--<distributionManagement>...</distributionManagement>-->
     <!--<profiles>...</profiles>-->
 </project>
-
