@@ -1,0 +1,535 @@
++ pushd third-party-code
+~/github/sean/learn-java-module/third-party-code ~/github/sean/learn-java-module
++ mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-third-party-code 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ learn-module-third-party-code ---
+[INFO] Deleting /Users/sshubin/github/sean/learn-java-module/third-party-code/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.207 s
+[INFO] Finished at: 2017-10-05T16:16:07-07:00
+[INFO] Final Memory: 10M/35M
+[INFO] ------------------------------------------------------------------------
++ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-third-party-code 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ learn-module-third-party-code ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/third-party-code/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ learn-module-third-party-code ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/sshubin/github/sean/learn-java-module/third-party-code/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ learn-module-third-party-code ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/third-party-code/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ learn-module-third-party-code ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ learn-module-third-party-code ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ learn-module-third-party-code ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/third-party-code/target/learn-module-third-party-code-1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.1.0:single (default) @ learn-module-third-party-code ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/third-party-code/target/learn-module-third-party-code-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ learn-module-third-party-code ---
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/third-party-code/target/learn-module-third-party-code-1-SNAPSHOT.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-third-party-code/1-SNAPSHOT/learn-module-third-party-code-1-SNAPSHOT.jar
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/third-party-code/pom.xml to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-third-party-code/1-SNAPSHOT/learn-module-third-party-code-1-SNAPSHOT.pom
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/third-party-code/target/learn-module-third-party-code-1-SNAPSHOT-jar-with-dependencies.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-third-party-code/1-SNAPSHOT/learn-module-third-party-code-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.671 s
+[INFO] Finished at: 2017-10-05T16:16:10-07:00
+[INFO] Final Memory: 18M/59M
+[INFO] ------------------------------------------------------------------------
++ popd
+~/github/sean/learn-java-module
++ pushd legacy-code
+~/github/sean/learn-java-module/legacy-code ~/github/sean/learn-java-module
++ mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-legacy-code 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ learn-module-legacy-code ---
+[INFO] Deleting /Users/sshubin/github/sean/learn-java-module/legacy-code/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.189 s
+[INFO] Finished at: 2017-10-05T16:16:11-07:00
+[INFO] Final Memory: 10M/34M
+[INFO] ------------------------------------------------------------------------
++ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-legacy-code 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ learn-module-legacy-code ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/legacy-code/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ learn-module-legacy-code ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/sshubin/github/sean/learn-java-module/legacy-code/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ learn-module-legacy-code ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/legacy-code/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ learn-module-legacy-code ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ learn-module-legacy-code ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ learn-module-legacy-code ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/legacy-code/target/learn-module-legacy-code-1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.1.0:single (default) @ learn-module-legacy-code ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/legacy-code/target/learn-module-legacy-code-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ learn-module-legacy-code ---
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/legacy-code/target/learn-module-legacy-code-1-SNAPSHOT.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-legacy-code/1-SNAPSHOT/learn-module-legacy-code-1-SNAPSHOT.jar
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/legacy-code/pom.xml to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-legacy-code/1-SNAPSHOT/learn-module-legacy-code-1-SNAPSHOT.pom
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/legacy-code/target/learn-module-legacy-code-1-SNAPSHOT-jar-with-dependencies.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-legacy-code/1-SNAPSHOT/learn-module-legacy-code-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.648 s
+[INFO] Finished at: 2017-10-05T16:16:14-07:00
+[INFO] Final Memory: 19M/65M
+[INFO] ------------------------------------------------------------------------
++ popd
+~/github/sean/learn-java-module
++ pushd module-d1
+~/github/sean/learn-java-module/module-d1 ~/github/sean/learn-java-module
++ mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-d 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ learn-module-d ---
+[INFO] Deleting /Users/sshubin/github/sean/learn-java-module/module-d1/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.193 s
+[INFO] Finished at: 2017-10-05T16:16:15-07:00
+[INFO] Final Memory: 10M/35M
+[INFO] ------------------------------------------------------------------------
++ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-d 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ learn-module-d ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-d1/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ learn-module-d ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/sshubin/github/sean/learn-java-module/module-d1/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ learn-module-d ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-d1/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ learn-module-d ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ learn-module-d ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ learn-module-d ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-d1/target/learn-module-d-1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.1.0:single (default) @ learn-module-d ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-d1/target/learn-module-d-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ learn-module-d ---
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-d1/target/learn-module-d-1-SNAPSHOT.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-d/1-SNAPSHOT/learn-module-d-1-SNAPSHOT.jar
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-d1/pom.xml to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-d/1-SNAPSHOT/learn-module-d-1-SNAPSHOT.pom
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-d1/target/learn-module-d-1-SNAPSHOT-jar-with-dependencies.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-d/1-SNAPSHOT/learn-module-d-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.634 s
+[INFO] Finished at: 2017-10-05T16:16:18-07:00
+[INFO] Final Memory: 15M/50M
+[INFO] ------------------------------------------------------------------------
++ popd
+~/github/sean/learn-java-module
++ pushd module-d2
+~/github/sean/learn-java-module/module-d2 ~/github/sean/learn-java-module
++ mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-d 2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ learn-module-d ---
+[INFO] Deleting /Users/sshubin/github/sean/learn-java-module/module-d2/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.184 s
+[INFO] Finished at: 2017-10-05T16:16:20-07:00
+[INFO] Final Memory: 10M/34M
+[INFO] ------------------------------------------------------------------------
++ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-d 2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ learn-module-d ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-d2/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ learn-module-d ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/sshubin/github/sean/learn-java-module/module-d2/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ learn-module-d ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-d2/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ learn-module-d ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ learn-module-d ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ learn-module-d ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-d2/target/learn-module-d-2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.1.0:single (default) @ learn-module-d ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-d2/target/learn-module-d-2-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ learn-module-d ---
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-d2/target/learn-module-d-2-SNAPSHOT.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-d/2-SNAPSHOT/learn-module-d-2-SNAPSHOT.jar
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-d2/pom.xml to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-d/2-SNAPSHOT/learn-module-d-2-SNAPSHOT.pom
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-d2/target/learn-module-d-2-SNAPSHOT-jar-with-dependencies.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-d/2-SNAPSHOT/learn-module-d-2-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.641 s
+[INFO] Finished at: 2017-10-05T16:16:22-07:00
+[INFO] Final Memory: 15M/50M
+[INFO] ------------------------------------------------------------------------
++ popd
+~/github/sean/learn-java-module
++ pushd module-c
+~/github/sean/learn-java-module/module-c ~/github/sean/learn-java-module
++ mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-c 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ learn-module-c ---
+[INFO] Deleting /Users/sshubin/github/sean/learn-java-module/module-c/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.187 s
+[INFO] Finished at: 2017-10-05T16:16:24-07:00
+[INFO] Final Memory: 10M/34M
+[INFO] ------------------------------------------------------------------------
++ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-c 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ learn-module-c ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-c/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ learn-module-c ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/sshubin/github/sean/learn-java-module/module-c/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ learn-module-c ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-c/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ learn-module-c ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ learn-module-c ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ learn-module-c ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-c/target/learn-module-c-1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.1.0:single (default) @ learn-module-c ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-c/target/learn-module-c-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ learn-module-c ---
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-c/target/learn-module-c-1-SNAPSHOT.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-c/1-SNAPSHOT/learn-module-c-1-SNAPSHOT.jar
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-c/pom.xml to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-c/1-SNAPSHOT/learn-module-c-1-SNAPSHOT.pom
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-c/target/learn-module-c-1-SNAPSHOT-jar-with-dependencies.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-c/1-SNAPSHOT/learn-module-c-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.674 s
+[INFO] Finished at: 2017-10-05T16:16:26-07:00
+[INFO] Final Memory: 15M/50M
+[INFO] ------------------------------------------------------------------------
++ popd
+~/github/sean/learn-java-module
++ pushd module-b
+~/github/sean/learn-java-module/module-b ~/github/sean/learn-java-module
++ mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-b 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ learn-module-b ---
+[INFO] Deleting /Users/sshubin/github/sean/learn-java-module/module-b/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.185 s
+[INFO] Finished at: 2017-10-05T16:16:28-07:00
+[INFO] Final Memory: 10M/34M
+[INFO] ------------------------------------------------------------------------
++ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-b 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ learn-module-b ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-b/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ learn-module-b ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/sshubin/github/sean/learn-java-module/module-b/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ learn-module-b ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-b/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ learn-module-b ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ learn-module-b ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ learn-module-b ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-b/target/learn-module-b-1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.1.0:single (default) @ learn-module-b ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-b/target/learn-module-b-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ learn-module-b ---
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-b/target/learn-module-b-1-SNAPSHOT.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-b/1-SNAPSHOT/learn-module-b-1-SNAPSHOT.jar
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-b/pom.xml to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-b/1-SNAPSHOT/learn-module-b-1-SNAPSHOT.pom
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-b/target/learn-module-b-1-SNAPSHOT-jar-with-dependencies.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-b/1-SNAPSHOT/learn-module-b-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.664 s
+[INFO] Finished at: 2017-10-05T16:16:31-07:00
+[INFO] Final Memory: 15M/50M
+[INFO] ------------------------------------------------------------------------
++ popd
+~/github/sean/learn-java-module
++ pushd module-a
+~/github/sean/learn-java-module/module-a ~/github/sean/learn-java-module
++ mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-a 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ learn-module-a ---
+[INFO] Deleting /Users/sshubin/github/sean/learn-java-module/module-a/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.185 s
+[INFO] Finished at: 2017-10-05T16:16:32-07:00
+[INFO] Final Memory: 12M/41M
+[INFO] ------------------------------------------------------------------------
++ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-a 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ learn-module-a ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-a/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ learn-module-a ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/sshubin/github/sean/learn-java-module/module-a/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ learn-module-a ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/module-a/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ learn-module-a ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ learn-module-a ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ learn-module-a ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-a/target/learn-module-a-1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.1.0:single (default) @ learn-module-a ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/module-a/target/learn-module-a-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ learn-module-a ---
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-a/target/learn-module-a-1-SNAPSHOT.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-a/1-SNAPSHOT/learn-module-a-1-SNAPSHOT.jar
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-a/pom.xml to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-a/1-SNAPSHOT/learn-module-a-1-SNAPSHOT.pom
+[INFO] Installing /Users/sshubin/github/sean/learn-java-module/module-a/target/learn-module-a-1-SNAPSHOT-jar-with-dependencies.jar to /Users/sshubin/.m2/learning-repository/com/seanshubin/learn/module/learn-module-a/1-SNAPSHOT/learn-module-a-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.699 s
+[INFO] Finished at: 2017-10-05T16:16:35-07:00
+[INFO] Final Memory: 15M/50M
+[INFO] ------------------------------------------------------------------------
++ popd
+~/github/sean/learn-java-module
++ pushd entry-point
+~/github/sean/learn-java-module/entry-point ~/github/sean/learn-java-module
++ mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-entry-point 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ learn-module-entry-point ---
+[INFO] Deleting /Users/sshubin/github/sean/learn-java-module/entry-point/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.186 s
+[INFO] Finished at: 2017-10-05T16:16:36-07:00
+[INFO] Final Memory: 10M/34M
+[INFO] ------------------------------------------------------------------------
++ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building learn-module-entry-point 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ learn-module-entry-point ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/entry-point/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ learn-module-entry-point ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/sshubin/github/sean/learn-java-module/entry-point/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ learn-module-entry-point ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/sshubin/github/sean/learn-java-module/entry-point/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ learn-module-entry-point ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ learn-module-entry-point ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ learn-module-entry-point ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/entry-point/target/learn-module-entry-point-1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.1.0:single (default) @ learn-module-entry-point ---
+[INFO] Building jar: /Users/sshubin/github/sean/learn-java-module/entry-point/target/learn-module-entry-point-1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.678 s
+[INFO] Finished at: 2017-10-05T16:16:39-07:00
+[INFO] Final Memory: 19M/63M
+[INFO] ------------------------------------------------------------------------
++ popd
+~/github/sean/learn-java-module
++ java -jar entry-point/target/learn-module-entry-point-1-SNAPSHOT-jar-with-dependencies.jar
+Hello from entry point!
+Hello from module a!
+Hello from module b!
+Hello from module d version 1!
+Hello from legacy code!
+Hello from third party code!
+Hello from module c!
+Hello from module d version 1!
+Hello from legacy code!
+Hello from third party code!
++ java -jar module-a/target/learn-module-a-1-SNAPSHOT-jar-with-dependencies.jar
+Hello from module a!
+Hello from module b!
+Hello from module d version 1!
+Hello from legacy code!
+Hello from third party code!
+Hello from module c!
+Hello from module d version 1!
+Hello from legacy code!
+Hello from third party code!
++ java -jar module-b/target/learn-module-b-1-SNAPSHOT-jar-with-dependencies.jar
+Hello from module b!
+Hello from module d version 1!
+Hello from legacy code!
+Hello from third party code!
++ java -jar module-c/target/learn-module-c-1-SNAPSHOT-jar-with-dependencies.jar
+Hello from module c!
+Hello from module d version 2!
+Hello from legacy code!
+Hello from third party code!
++ java -jar module-d1/target/learn-module-d-1-SNAPSHOT-jar-with-dependencies.jar
+Hello from module d version 1!
+Hello from legacy code!
+Hello from third party code!
++ java -jar module-d2/target/learn-module-d-2-SNAPSHOT-jar-with-dependencies.jar
+Hello from module d version 2!
+Hello from legacy code!
+Hello from third party code!
++ java -jar legacy-code/target/learn-module-legacy-code-1-SNAPSHOT-jar-with-dependencies.jar
+Hello from legacy code!
+Hello from third party code!
++ java -jar third-party-code/target/learn-module-third-party-code-1-SNAPSHOT-jar-with-dependencies.jar
+Hello from third party code!

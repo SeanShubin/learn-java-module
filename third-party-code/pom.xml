@@ -6,16 +6,11 @@
 
     <!-- The Basics -->
     <groupId>com.seanshubin.learn.module</groupId>
-    <artifactId>learn-module-legacy-code</artifactId>
+    <artifactId>learn-module-third-party-code</artifactId>
     <version>1-SNAPSHOT</version>
+
     <!--<packaging>...</packaging>-->
-    <dependencies>
-        <dependency>
-            <groupId>com.seanshubin.learn.module</groupId>
-            <artifactId>learn-module-third-party-code</artifactId>
-            <version>1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+    <!--<dependencies>...</dependencies>-->
     <!--<parent>...</parent>-->
     <!--<dependencyManagement>...</dependencyManagement>-->
     <!--<modules>...</modules>-->
@@ -35,17 +30,6 @@
                 </configuration>
             </plugin>
             <plugin>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.0.2</version>
-                <configuration>
-                    <archive>
-                        <manifestEntries>
-                            <Automatic-Module-Name>com.seanshubin.learn.module.legacycode</Automatic-Module-Name>
-                        </manifestEntries>
-                    </archive>
-                </configuration>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.1.0</version>
@@ -55,7 +39,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.seanshubin.learn.module.legacycode.MainLegacyCode</mainClass>
+                            <mainClass>com.seanshubin.learn.module.thirdpartycode.MainThirdPartyCode</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

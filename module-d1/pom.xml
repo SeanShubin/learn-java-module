@@ -14,6 +14,7 @@
             <groupId>com.seanshubin.learn.module</groupId>
             <artifactId>learn-module-legacy-code</artifactId>
             <version>1-SNAPSHOT</version>
+
         </dependency>
     </dependencies>
     <!--<parent>...</parent>-->

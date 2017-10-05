@@ -1,0 +1,43 @@
++ jar --file entry-point/target/learn-module-entry-point-1-SNAPSHOT.jar --describe-module
+Unable to derive module descriptor for: entry-point/target/learn-module-entry-point-1-SNAPSHOT.jar
+learn.module.entry.point.1.SNAPSHOT: Invalid module name: '1' is not a Java identifier
++ jar --file module-a/target/learn-module-a-1-SNAPSHOT.jar --describe-module
+com.seanshubin.learn.module.a jar:file:///Users/sshubin/github/sean/learn-java-module/module-a/target/learn-module-a-1-SNAPSHOT.jar/!module-info.class
+requires com.seanshubin.learn.module.b
+requires com.seanshubin.learn.module.c
+requires java.base mandated
+
++ jar --file module-b/target/learn-module-b-1-SNAPSHOT.jar --describe-module
+com.seanshubin.learn.module.b jar:file:///Users/sshubin/github/sean/learn-java-module/module-b/target/learn-module-b-1-SNAPSHOT.jar/!module-info.class
+exports com.seanshubin.learn.module.b
+requires com.seanshubin.learn.module.d
+requires java.base mandated
+
++ jar --file module-c/target/learn-module-c-1-SNAPSHOT.jar --describe-module
+com.seanshubin.learn.module.c jar:file:///Users/sshubin/github/sean/learn-java-module/module-c/target/learn-module-c-1-SNAPSHOT.jar/!module-info.class
+exports com.seanshubin.learn.module.c
+requires com.seanshubin.learn.module.d
+requires java.base mandated
+
++ jar --file module-d1/target/learn-module-d-1-SNAPSHOT.jar --describe-module
+com.seanshubin.learn.module.d jar:file:///Users/sshubin/github/sean/learn-java-module/module-d1/target/learn-module-d-1-SNAPSHOT.jar/!module-info.class
+exports com.seanshubin.learn.module.d
+requires com.seanshubin.learn.module.legacycode
+requires java.base mandated
+
++ jar --file module-d2/target/learn-module-d-2-SNAPSHOT.jar --describe-module
+com.seanshubin.learn.module.d jar:file:///Users/sshubin/github/sean/learn-java-module/module-d2/target/learn-module-d-2-SNAPSHOT.jar/!module-info.class
+exports com.seanshubin.learn.module.d
+requires com.seanshubin.learn.module.legacycode
+requires java.base mandated
+
++ jar --file legacy-code/target/learn-module-legacy-code-1-SNAPSHOT.jar --describe-module
+No module descriptor found. Derived automatic module.
+
+com.seanshubin.learn.module.legacycode automatic
+requires java.base mandated
+contains com.seanshubin.learn.module.legacycode
+
++ jar --file third-party-code/target/learn-module-third-party-code-1-SNAPSHOT.jar --describe-module
+Unable to derive module descriptor for: third-party-code/target/learn-module-third-party-code-1-SNAPSHOT.jar
+learn.module.third.party.code.1.SNAPSHOT: Invalid module name: '1' is not a Java identifier

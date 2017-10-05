@@ -3,6 +3,10 @@
 set -e
 set -x
 
+pushd third-party-code
+mvn clean
+mvn install
+popd
 pushd legacy-code
 mvn clean
 mvn install
@@ -39,4 +43,4 @@ java -jar module-c/target/learn-module-c-1-SNAPSHOT-jar-with-dependencies.jar
 java -jar module-d1/target/learn-module-d-1-SNAPSHOT-jar-with-dependencies.jar
 java -jar module-d2/target/learn-module-d-2-SNAPSHOT-jar-with-dependencies.jar
 java -jar legacy-code/target/learn-module-legacy-code-1-SNAPSHOT-jar-with-dependencies.jar
-
+java -jar third-party-code/target/learn-module-third-party-code-1-SNAPSHOT-jar-with-dependencies.jar
