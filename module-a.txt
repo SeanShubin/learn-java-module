@@ -1,0 +1,9 @@
+Hello from module a!
+Hello from module b!
+Hello from module d version 1!
+Hello from legacy code!
+Hello from third party code!
+Hello from module c!
+Hello from module d version 1!
+Hello from legacy code!
+Hello from third party code!

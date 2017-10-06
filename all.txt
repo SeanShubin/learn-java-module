@@ -2,7 +2,7 @@
 ~/github/sean/learn-java-module/third-party-code ~/github/sean/learn-java-module
 + mvn clean
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-third-party-code 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -12,13 +12,13 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.207 s
-[INFO] Finished at: 2017-10-05T16:16:07-07:00
-[INFO] Final Memory: 10M/35M
+[INFO] Total time: 0.199 s
+[INFO] Finished at: 2017-10-06T13:27:56-07:00
+[INFO] Final Memory: 6M/23M
 [INFO] ------------------------------------------------------------------------
 + mvn install
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-third-party-code 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -54,9 +54,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.671 s
-[INFO] Finished at: 2017-10-05T16:16:10-07:00
-[INFO] Final Memory: 18M/59M
+[INFO] Total time: 1.537 s
+[INFO] Finished at: 2017-10-06T13:27:58-07:00
+[INFO] Final Memory: 14M/48M
 [INFO] ------------------------------------------------------------------------
 + popd
 ~/github/sean/learn-java-module
@@ -64,7 +64,7 @@
 ~/github/sean/learn-java-module/legacy-code ~/github/sean/learn-java-module
 + mvn clean
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-legacy-code 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -74,13 +74,13 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.189 s
-[INFO] Finished at: 2017-10-05T16:16:11-07:00
-[INFO] Final Memory: 10M/34M
+[INFO] Total time: 0.194 s
+[INFO] Finished at: 2017-10-06T13:28:00-07:00
+[INFO] Final Memory: 6M/23M
 [INFO] ------------------------------------------------------------------------
 + mvn install
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-legacy-code 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -116,9 +116,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.648 s
-[INFO] Finished at: 2017-10-05T16:16:14-07:00
-[INFO] Final Memory: 19M/65M
+[INFO] Total time: 1.651 s
+[INFO] Finished at: 2017-10-06T13:28:03-07:00
+[INFO] Final Memory: 15M/51M
 [INFO] ------------------------------------------------------------------------
 + popd
 ~/github/sean/learn-java-module
@@ -126,7 +126,7 @@
 ~/github/sean/learn-java-module/module-d1 ~/github/sean/learn-java-module
 + mvn clean
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-d 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -136,13 +136,13 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.193 s
-[INFO] Finished at: 2017-10-05T16:16:15-07:00
-[INFO] Final Memory: 10M/35M
+[INFO] Total time: 0.208 s
+[INFO] Finished at: 2017-10-06T13:28:04-07:00
+[INFO] Final Memory: 6M/23M
 [INFO] ------------------------------------------------------------------------
 + mvn install
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-d 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -178,9 +178,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.634 s
-[INFO] Finished at: 2017-10-05T16:16:18-07:00
-[INFO] Final Memory: 15M/50M
+[INFO] Total time: 1.660 s
+[INFO] Finished at: 2017-10-06T13:28:07-07:00
+[INFO] Final Memory: 15M/52M
 [INFO] ------------------------------------------------------------------------
 + popd
 ~/github/sean/learn-java-module
@@ -188,7 +188,7 @@
 ~/github/sean/learn-java-module/module-d2 ~/github/sean/learn-java-module
 + mvn clean
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-d 2-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -198,13 +198,13 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.184 s
-[INFO] Finished at: 2017-10-05T16:16:20-07:00
-[INFO] Final Memory: 10M/34M
+[INFO] Total time: 0.199 s
+[INFO] Finished at: 2017-10-06T13:28:08-07:00
+[INFO] Final Memory: 6M/23M
 [INFO] ------------------------------------------------------------------------
 + mvn install
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-d 2-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -240,9 +240,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.641 s
-[INFO] Finished at: 2017-10-05T16:16:22-07:00
-[INFO] Final Memory: 15M/50M
+[INFO] Total time: 1.613 s
+[INFO] Finished at: 2017-10-06T13:28:11-07:00
+[INFO] Final Memory: 15M/52M
 [INFO] ------------------------------------------------------------------------
 + popd
 ~/github/sean/learn-java-module
@@ -250,7 +250,7 @@
 ~/github/sean/learn-java-module/module-c ~/github/sean/learn-java-module
 + mvn clean
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-c 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -260,13 +260,13 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.187 s
-[INFO] Finished at: 2017-10-05T16:16:24-07:00
-[INFO] Final Memory: 10M/34M
+[INFO] Total time: 0.200 s
+[INFO] Finished at: 2017-10-06T13:28:12-07:00
+[INFO] Final Memory: 6M/23M
 [INFO] ------------------------------------------------------------------------
 + mvn install
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-c 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -302,9 +302,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.674 s
-[INFO] Finished at: 2017-10-05T16:16:26-07:00
-[INFO] Final Memory: 15M/50M
+[INFO] Total time: 1.644 s
+[INFO] Finished at: 2017-10-06T13:28:15-07:00
+[INFO] Final Memory: 16M/53M
 [INFO] ------------------------------------------------------------------------
 + popd
 ~/github/sean/learn-java-module
@@ -312,7 +312,7 @@
 ~/github/sean/learn-java-module/module-b ~/github/sean/learn-java-module
 + mvn clean
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-b 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -322,13 +322,13 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.185 s
-[INFO] Finished at: 2017-10-05T16:16:28-07:00
-[INFO] Final Memory: 10M/34M
+[INFO] Total time: 0.197 s
+[INFO] Finished at: 2017-10-06T13:28:16-07:00
+[INFO] Final Memory: 6M/23M
 [INFO] ------------------------------------------------------------------------
 + mvn install
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-b 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -364,9 +364,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.664 s
-[INFO] Finished at: 2017-10-05T16:16:31-07:00
-[INFO] Final Memory: 15M/50M
+[INFO] Total time: 1.665 s
+[INFO] Finished at: 2017-10-06T13:28:19-07:00
+[INFO] Final Memory: 16M/53M
 [INFO] ------------------------------------------------------------------------
 + popd
 ~/github/sean/learn-java-module
@@ -374,7 +374,7 @@
 ~/github/sean/learn-java-module/module-a ~/github/sean/learn-java-module
 + mvn clean
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-a 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -384,13 +384,13 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.185 s
-[INFO] Finished at: 2017-10-05T16:16:32-07:00
-[INFO] Final Memory: 12M/41M
+[INFO] Total time: 0.200 s
+[INFO] Finished at: 2017-10-06T13:28:20-07:00
+[INFO] Final Memory: 6M/23M
 [INFO] ------------------------------------------------------------------------
 + mvn install
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-a 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -426,9 +426,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.699 s
-[INFO] Finished at: 2017-10-05T16:16:35-07:00
-[INFO] Final Memory: 15M/50M
+[INFO] Total time: 1.661 s
+[INFO] Finished at: 2017-10-06T13:28:23-07:00
+[INFO] Final Memory: 16M/53M
 [INFO] ------------------------------------------------------------------------
 + popd
 ~/github/sean/learn-java-module
@@ -436,7 +436,7 @@
 ~/github/sean/learn-java-module/entry-point ~/github/sean/learn-java-module
 + mvn clean
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-entry-point 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -446,13 +446,13 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.186 s
-[INFO] Finished at: 2017-10-05T16:16:36-07:00
-[INFO] Final Memory: 10M/34M
+[INFO] Total time: 0.199 s
+[INFO] Finished at: 2017-10-06T13:28:24-07:00
+[INFO] Final Memory: 6M/23M
 [INFO] ------------------------------------------------------------------------
 + mvn package
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building learn-module-entry-point 1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
@@ -483,9 +483,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.678 s
-[INFO] Finished at: 2017-10-05T16:16:39-07:00
-[INFO] Final Memory: 19M/63M
+[INFO] Total time: 1.659 s
+[INFO] Finished at: 2017-10-06T13:28:27-07:00
+[INFO] Final Memory: 14M/49M
 [INFO] ------------------------------------------------------------------------
 + popd
 ~/github/sean/learn-java-module
