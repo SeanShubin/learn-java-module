@@ -51,3 +51,7 @@
 - [MainEntryPoint](entry-point/src/main/java/com/seanshubin/learn/module/entrypoint/MainEntryPoint.java) is in the unnamed module, so it can access [MainA](module-a/src/main/java/com/seanshubin/learn/module/a/MainA.java) in the module [learn.module.a](module-a/src/main/java/module-info.java)
 - [MainA](module-a/src/main/java/com/seanshubin/learn/module/a/MainA.java) is in module [learn.module.a](module-a/src/main/java/module-info.java), which requires module [learn.module.b](module-b/src/main/java/module-info.java), so it can access [MainB](module-b/src/main/java/com/seanshubin/learn/module/b/MainB.java)
 - [MainLegacyCode](legacy-code/src/main/java/com/seanshubin/learn/module/legacycode/MainLegacyCode.java) is in the automatic module [learn.module.legacycode](legacy-code/pom.xml), so it can see [MainThirdPartyCode](third-party-code/src/main/java/com/seanshubin/learn/module/thirdpartycode/MainThirdPartyCode.java) in the unnamed module
+
+# Other details
+- jar has this option :`-d, --describe-module      Print the module descriptor, or automatic module name`
+- Oracle's Java9 uses the non-standardized "jmod" format for modules, which includes support for native code
