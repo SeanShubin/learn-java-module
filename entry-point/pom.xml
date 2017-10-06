@@ -57,6 +57,22 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>com.seanshubin.detangler</groupId>
+                <artifactId>detangler-maven-plugin</artifactId>
+                <version>0.9.1</version>
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <detanglerConfig>detangler.txt</detanglerConfig>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <!--<reporting>...</reporting>-->

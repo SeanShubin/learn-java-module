@@ -1,0 +1,17 @@
+{
+  reportDir target/detangled
+  searchPaths
+  [
+    target/learn-module-entry-point-1-SNAPSHOT-jar-with-dependencies.jar
+  ]
+  level 1
+  startsWith
+  {
+    include [[com seanshubin learn module]]
+    exclude []
+    drop [[com seanshubin learn module]]
+  }
+  ignoreFiles []
+  canFailBuild false
+  allowedInCycle []
+}
