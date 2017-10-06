@@ -1,0 +1,16 @@
+digraph detangled {
+  "MainA in module learn.module.a";
+  "MainB in module learn.module.b";
+  "MainC in module learn.module.c";
+  "MainD in module learn.module.d";
+  "MainEntryPoint in unnamed module";
+  "MainLegacyCode in automatic module learn.module.legacycode";
+  "MainThirdPartyCode in unnamed module";
+  "MainA in module learn.module.a" -> "MainB in module learn.module.b";
+  "MainA in module learn.module.a" -> "MainC in module learn.module.c";
+  "MainB in module learn.module.b" -> "MainD in module learn.module.d";
+  "MainC in module learn.module.c" -> "MainD in module learn.module.d";
+  "MainD in module learn.module.d" -> "MainLegacyCode in automatic module learn.module.legacycode";
+  "MainEntryPoint in unnamed module" -> "MainA in module learn.module.a";
+  "MainLegacyCode in automatic module learn.module.legacycode" -> "MainThirdPartyCode in unnamed module";
+}

@@ -12,6 +12,8 @@
 - module path (defined by the host system)
 
 ## Types of modules
+![modules](modules.svg)
+
 - unnamed module (legacy)
     - code compiled by Java 9 that does not have a module descriptor and is not on the module path
     - reads all modules
@@ -44,7 +46,7 @@
 - Apparent relationships between module names and package names have no significance with regards to behavior, it is convention only
 
 ## Examples
-![dependency graph](graph.svg)
+![dependency graph](dependencies.svg)
 
 - [MainEntryPoint](entry-point/src/main/java/com/seanshubin/learn/module/entrypoint/MainEntryPoint.java) is in the unnamed module, so it can access [MainA](module-a/src/main/java/com/seanshubin/learn/module/a/MainA.java) in the module [learn.module.a](module-a/src/main/java/module-info.java)
 - [MainA](module-a/src/main/java/com/seanshubin/learn/module/a/MainA.java) is in module [learn.module.a](module-a/src/main/java/module-info.java), which requires module [learn.module.b](module-b/src/main/java/module-info.java), so it can access [MainB](module-b/src/main/java/com/seanshubin/learn/module/b/MainB.java)

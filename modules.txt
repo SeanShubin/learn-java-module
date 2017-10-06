@@ -1,0 +1,10 @@
+digraph modules {
+  "unnamed module";
+  "module";
+  "automatic module";
+  "unnamed module" -> "module";
+  "unnamed module" -> "automatic module";
+  "module" -> "automatic module";
+  "automatic module" -> "module";
+  "automatic module" -> "unnamed module";
+}
